@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+  <header> 
+    <img src="Logo.png" alt="logo de alura con la inicial a">
+
+    <div id="titulo">
+        <h1>Encriptador de Texto</h1>
+    </div>
+
+
+  </header>
+      <main>
+            <section>
+              
+              <textarea class="input-texto"  id="inputTexto" cols="60" rows="15" placeholder="Ingrese el texto aqui"></textarea>
+              <div class="botones">
+
+                <button class="encriptar" onclick="btnEncriptar()">
+                  Encriptar
+              </button>
+
+                   <button class="desencriptar" onclick="btnDesencriptar()">
+                   Desencriptar
+                  </button>
+              </div> 
+            </section>
+
+            <section class="mensaje-box">
+
+              <textarea class="mensaje" 
+              cols="90" rows="20"></textarea>
+              <img id="imgRect" class="mujerBuscando" src="Muñeco.png">
+              <button class="copiar" onclick="copiar()">Copiar</button>
+
+            </section>
+      </main>
+      <footer>
+        <div class="social-logos">
+            <a target="_blank" href="https://www.facebook.com/francisco.gomezvea"><img src="facebook.png" alt="facebook-ícono" class="facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/_kuchu_/"><img src="instagramlogo.png" alt="instagram-ícono" class="instagram"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/franciscogomezveamurguia/"><img src="linkedinlogo.png" alt="linkedin-ícono" class="linkedin"></a>
+            <a target="_blank" href="https://github.com/FranciscoGomezVeaMurguia"><img src="githublogo.png" alt="github-ícono" class="github"></a>
+        </div>
+        
+        <p class="copyrigth">© Copyrigth Fkuchu - 2022</p>
+    </footer>
+      <script src="script.js"></script>
+</body>
+</html>
